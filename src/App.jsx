@@ -43,7 +43,7 @@ function App() {
               </li>
             </ul>
           </aside>
-          <main className="main flex-grow h-full overflow-x-hidden overflow-y-auto px-4">
+          <main className="main flex-grow h-full overflow-x-hidden overflow-y-auto px-8">
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/report" element={<Calculation />} />
