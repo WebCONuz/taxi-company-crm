@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "taxi_services": 98,
+    "clients": 15,
+    "delivery": 26,
+    "other": 16,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 2,
+    "taxi_services": 2,
+    "clients": 62,
+    "delivery": 66,
+    "other": 14,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 3,
+    "taxi_services": 41,
+    "clients": 86,
+    "delivery": 30,
+    "other": 18,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 4,
+    "taxi_services": 62,
+    "clients": 13,
+    "delivery": 23,
+    "other": 1,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 5,
+    "taxi_services": 58,
+    "clients": 17,
+    "delivery": 42,
+    "other": 20,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 6,
+    "taxi_services": 61,
+    "clients": 96,
+    "delivery": 53,
+    "other": 11,
+    "date": "18/04/2023"
+  },
+  {
+    "id": 7,
+    "taxi_services": 36,
+    "clients": 70,
+    "delivery": 79,
+    "other": 13,
+    "date": "28/03/2023"
+  },
+  {
+    "id": 8,
+    "taxi_services": 78,
+    "clients": 5,
+    "delivery": 77,
+    "other": 7,
+    "date": "21/03/2023"
+  },
+  {
+    "id": 9,
+    "taxi_services": 89,
+    "clients": 79,
+    "delivery": 93,
+    "other": 15,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 10,
+    "taxi_services": 0,
+    "clients": 44,
+    "delivery": 9,
+    "other": 3,
+    "date": "23/03/2023"
+  },
+  {
+    "id": 11,
+    "taxi_services": 41,
+    "clients": 73,
+    "delivery": 16,
+    "other": 7,
+    "date": "02/04/2023"
+  },
+  {
+    "id": 12,
+    "taxi_services": 12,
+    "clients": 91,
+    "delivery": 58,
+    "other": 16,
+    "date": "24/04/2023"
+  },
+  {
+    "id": 13,
+    "taxi_services": 61,
+    "clients": 39,
+    "delivery": 73,
+    "other": 3,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 14,
+    "taxi_services": 83,
+    "clients": 30,
+    "delivery": 42,
+    "other": 13,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 15,
+    "taxi_services": 21,
+    "clients": 92,
+    "delivery": 5,
+    "other": 13,
+    "date": "24/04/2023"
+  },
+  {
+    "id": 16,
+    "taxi_services": 92,
+    "clients": 3,
+    "delivery": 70,
+    "other": 8,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 17,
+    "taxi_services": 41,
+    "clients": 63,
+    "delivery": 46,
+    "other": 2,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 18,
+    "taxi_services": 84,
+    "clients": 18,
+    "delivery": 74,
+    "other": 16,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 19,
+    "taxi_services": 44,
+    "clients": 88,
+    "delivery": 39,
+    "other": 9,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 20,
+    "taxi_services": 87,
+    "clients": 58,
+    "delivery": 25,
+    "other": 6,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 21,
+    "taxi_services": 29,
+    "clients": 40,
+    "delivery": 69,
+    "other": 17,
+    "date": "05/03/2023"
+  },
+  {
+    "id": 22,
+    "taxi_services": 14,
+    "clients": 82,
+    "delivery": 91,
+    "other": 0,
+    "date": "24/04/2023"
+  },
+  {
+    "id": 23,
+    "taxi_services": 77,
+    "clients": 72,
+    "delivery": 86,
+    "other": 9,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 24,
+    "taxi_services": 61,
+    "clients": 83,
+    "delivery": 81,
+    "other": 5,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 25,
+    "taxi_services": 0,
+    "clients": 100,
+    "delivery": 54,
+    "other": 14,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 26,
+    "taxi_services": 98,
+    "clients": 4,
+    "delivery": 98,
+    "other": 5,
+    "date": "28/03/2023"
+  },
+  {
+    "id": 27,
+    "taxi_services": 73,
+    "clients": 15,
+    "delivery": 65,
+    "other": 4,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 28,
+    "taxi_services": 11,
+    "clients": 91,
+    "delivery": 14,
+    "other": 19,
+    "date": "01/04/2023"
+  },
+  {
+    "id": 29,
+    "taxi_services": 80,
+    "clients": 57,
+    "delivery": 65,
+    "other": 12,
+    "date": "08/03/2023"
+  },
+  {
+    "id": 30,
+    "taxi_services": 1,
+    "clients": 93,
+    "delivery": 43,
+    "other": 17,
+    "date": "24/04/2023"
+  },
+  {
+    "id": 31,
+    "taxi_services": 9,
+    "clients": 78,
+    "delivery": 88,
+    "other": 13,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 32,
+    "taxi_services": 34,
+    "clients": 69,
+    "delivery": 79,
+    "other": 11,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 33,
+    "taxi_services": 13,
+    "clients": 4,
+    "delivery": 33,
+    "other": 2,
+    "date": "03/03/2023"
+  },
+  {
+    "id": 34,
+    "taxi_services": 48,
+    "clients": 64,
+    "delivery": 16,
+    "other": 5,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 35,
+    "taxi_services": 23,
+    "clients": 98,
+    "delivery": 40,
+    "other": 14,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 36,
+    "taxi_services": 69,
+    "clients": 34,
+    "delivery": 92,
+    "other": 7,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 37,
+    "taxi_services": 71,
+    "clients": 35,
+    "delivery": 16,
+    "other": 1,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 38,
+    "taxi_services": 30,
+    "clients": 95,
+    "delivery": 17,
+    "other": 19,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 39,
+    "taxi_services": 44,
+    "clients": 29,
+    "delivery": 18,
+    "other": 3,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 40,
+    "taxi_services": 45,
+    "clients": 84,
+    "delivery": 64,
+    "other": 12,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 41,
+    "taxi_services": 37,
+    "clients": 9,
+    "delivery": 86,
+    "other": 4,
+    "date": "14/03/2023"
+  },
+  {
+    "id": 42,
+    "taxi_services": 95,
+    "clients": 58,
+    "delivery": 35,
+    "other": 8,
+    "date": "07/04/2023"
+  },
+  {
+    "id": 43,
+    "taxi_services": 30,
+    "clients": 37,
+    "delivery": 83,
+    "other": 3,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 44,
+    "taxi_services": 0,
+    "clients": 76,
+    "delivery": 0,
+    "other": 13,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 45,
+    "taxi_services": 23,
+    "clients": 84,
+    "delivery": 18,
+    "other": 1,
+    "date": "29/03/2023"
+  },
+  {
+    "id": 46,
+    "taxi_services": 55,
+    "clients": 45,
+    "delivery": 76,
+    "other": 8,
+    "date": "07/03/2023"
+  },
+  {
+    "id": 47,
+    "taxi_services": 17,
+    "clients": 37,
+    "delivery": 3,
+    "other": 14,
+    "date": "29/03/2023"
+  },
+  {
+    "id": 48,
+    "taxi_services": 31,
+    "clients": 13,
+    "delivery": 45,
+    "other": 12,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 49,
+    "taxi_services": 94,
+    "clients": 16,
+    "delivery": 17,
+    "other": 17,
+    "date": "01/04/2023"
+  },
+  {
+    "id": 50,
+    "taxi_services": 11,
+    "clients": 26,
+    "delivery": 39,
+    "other": 9,
+    "date": "05/03/2023"
+  },
+  {
+    "id": 51,
+    "taxi_services": 49,
+    "clients": 46,
+    "delivery": 41,
+    "other": 17,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 52,
+    "taxi_services": 21,
+    "clients": 76,
+    "delivery": 22,
+    "other": 16,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 53,
+    "taxi_services": 3,
+    "clients": 31,
+    "delivery": 10,
+    "other": 6,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 54,
+    "taxi_services": 92,
+    "clients": 21,
+    "delivery": 46,
+    "other": 1,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 55,
+    "taxi_services": 100,
+    "clients": 81,
+    "delivery": 64,
+    "other": 14,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 56,
+    "taxi_services": 15,
+    "clients": 71,
+    "delivery": 3,
+    "other": 3,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 57,
+    "taxi_services": 29,
+    "clients": 77,
+    "delivery": 9,
+    "other": 7,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 58,
+    "taxi_services": 2,
+    "clients": 53,
+    "delivery": 55,
+    "other": 1,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 59,
+    "taxi_services": 39,
+    "clients": 15,
+    "delivery": 80,
+    "other": 7,
+    "date": "15/04/2023"
+  },
+  {
+    "id": 60,
+    "taxi_services": 17,
+    "clients": 72,
+    "delivery": 11,
+    "other": 3,
+    "date": "03/04/2023"
+  },
+  {
+    "id": 61,
+    "taxi_services": 14,
+    "clients": 4,
+    "delivery": 55,
+    "other": 15,
+    "date": "16/04/2023"
+  },
+  {
+    "id": 62,
+    "taxi_services": 18,
+    "clients": 0,
+    "delivery": 13,
+    "other": 3,
+    "date": "18/04/2023"
+  },
+  {
+    "id": 63,
+    "taxi_services": 88,
+    "clients": 84,
+    "delivery": 20,
+    "other": 19,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 64,
+    "taxi_services": 29,
+    "clients": 30,
+    "delivery": 22,
+    "other": 6,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 65,
+    "taxi_services": 75,
+    "clients": 24,
+    "delivery": 83,
+    "other": 18,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 66,
+    "taxi_services": 77,
+    "clients": 19,
+    "delivery": 41,
+    "other": 18,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 67,
+    "taxi_services": 5,
+    "clients": 31,
+    "delivery": 5,
+    "other": 9,
+    "date": "02/04/2023"
+  },
+  {
+    "id": 68,
+    "taxi_services": 73,
+    "clients": 49,
+    "delivery": 22,
+    "other": 7,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 69,
+    "taxi_services": 40,
+    "clients": 88,
+    "delivery": 87,
+    "other": 1,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 70,
+    "taxi_services": 60,
+    "clients": 42,
+    "delivery": 19,
+    "other": 20,
+    "date": "15/04/2023"
+  },
+  {
+    "id": 71,
+    "taxi_services": 52,
+    "clients": 68,
+    "delivery": 96,
+    "other": 1,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 72,
+    "taxi_services": 50,
+    "clients": 94,
+    "delivery": 0,
+    "other": 13,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 73,
+    "taxi_services": 24,
+    "clients": 40,
+    "delivery": 24,
+    "other": 2,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 74,
+    "taxi_services": 95,
+    "clients": 8,
+    "delivery": 8,
+    "other": 0,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 75,
+    "taxi_services": 34,
+    "clients": 23,
+    "delivery": 76,
+    "other": 10,
+    "date": "10/03/2023"
+  },
+  {
+    "id": 76,
+    "taxi_services": 66,
+    "clients": 12,
+    "delivery": 19,
+    "other": 0,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 77,
+    "taxi_services": 85,
+    "clients": 89,
+    "delivery": 46,
+    "other": 19,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 78,
+    "taxi_services": 89,
+    "clients": 16,
+    "delivery": 31,
+    "other": 14,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 79,
+    "taxi_services": 22,
+    "clients": 25,
+    "delivery": 70,
+    "other": 1,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 80,
+    "taxi_services": 26,
+    "clients": 26,
+    "delivery": 88,
+    "other": 14,
+    "date": "26/03/2023"
+  },
+  {
+    "id": 81,
+    "taxi_services": 88,
+    "clients": 29,
+    "delivery": 10,
+    "other": 11,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 82,
+    "taxi_services": 1,
+    "clients": 19,
+    "delivery": 71,
+    "other": 17,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 83,
+    "taxi_services": 30,
+    "clients": 99,
+    "delivery": 20,
+    "other": 4,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 84,
+    "taxi_services": 58,
+    "clients": 1,
+    "delivery": 98,
+    "other": 20,
+    "date": "23/03/2023"
+  },
+  {
+    "id": 85,
+    "taxi_services": 77,
+    "clients": 74,
+    "delivery": 96,
+    "other": 12,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 86,
+    "taxi_services": 47,
+    "clients": 61,
+    "delivery": 50,
+    "other": 19,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 87,
+    "taxi_services": 67,
+    "clients": 41,
+    "delivery": 86,
+    "other": 12,
+    "date": "07/04/2023"
+  },
+  {
+    "id": 88,
+    "taxi_services": 94,
+    "clients": 1,
+    "delivery": 34,
+    "other": 20,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 89,
+    "taxi_services": 31,
+    "clients": 40,
+    "delivery": 65,
+    "other": 4,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 90,
+    "taxi_services": 81,
+    "clients": 26,
+    "delivery": 52,
+    "other": 16,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 91,
+    "taxi_services": 68,
+    "clients": 95,
+    "delivery": 59,
+    "other": 0,
+    "date": "16/03/2023"
+  },
+  {
+    "id": 92,
+    "taxi_services": 55,
+    "clients": 89,
+    "delivery": 42,
+    "other": 7,
+    "date": "10/03/2023"
+  },
+  {
+    "id": 93,
+    "taxi_services": 9,
+    "clients": 2,
+    "delivery": 52,
+    "other": 1,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 94,
+    "taxi_services": 95,
+    "clients": 27,
+    "delivery": 90,
+    "other": 10,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 95,
+    "taxi_services": 53,
+    "clients": 55,
+    "delivery": 8,
+    "other": 19,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 96,
+    "taxi_services": 12,
+    "clients": 69,
+    "delivery": 25,
+    "other": 11,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 97,
+    "taxi_services": 86,
+    "clients": 26,
+    "delivery": 77,
+    "other": 1,
+    "date": "22/04/2023"
+  },
+  {
+    "id": 98,
+    "taxi_services": 27,
+    "clients": 3,
+    "delivery": 28,
+    "other": 18,
+    "date": "05/03/2023"
+  },
+  {
+    "id": 99,
+    "taxi_services": 89,
+    "clients": 44,
+    "delivery": 91,
+    "other": 18,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 100,
+    "taxi_services": 4,
+    "clients": 84,
+    "delivery": 48,
+    "other": 9,
+    "date": "14/04/2023"
+  }
+]
