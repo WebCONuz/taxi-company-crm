@@ -1,16 +1,19 @@
+import { calculation } from "../data";
 function Calculation() {
   return (
     <>
-      <div className="flex items-center justify-between py-8">
-        <h1 className="text-2xl text-center text-yellow-400 font-bold">
+      <div className="flex items-center justify-start py-8">
+        <h1 className="text-2xl text-center text-yellow-400 font-bold mr-8">
           Kunlik tushumlar
         </h1>
-        <div className="flex">
-          <button className="py-2 px-5 rounded bg-gray-100 mr-2">Kirim</button>
-          <button className="py-2 px-5 rounded bg-gray-100">Chiqim</button>
-        </div>
+        <button className="py-2 px-5 rounded bg-green-200 text-green-500 font-bold mr-2 hover:bg-green-500 hover:text-white duration-200 active:bg-green-700">
+          Kirim
+        </button>
+        <button className="py-2 px-5 rounded bg-red-200 text-red-500 font-bold hover:bg-red-500 hover:text-white duration-200 active:bg-red-700">
+          Chiqim
+        </button>
       </div>
-      <table className="min-w-max w-full table-auto">
+      <table className="w-full table-auto">
         <thead>
           <tr className="bg-gray-200 text-gray-600 uppercase text-xs leading-normal">
             <th className="py-3 px-6 text-left">No</th>
@@ -23,28 +26,32 @@ function Calculation() {
           </tr>
         </thead>
         <tbody className="text-gray-600 text-sm font-medium">
-          <tr className="border-b border-gray-200 hover:bg-gray-100 bg-green-100">
-            <td className="py-2 px-6 text-left whitespace-nowrap">1</td>
-            <td className="py-2 px-6 text-left">Eshal Rosas</td>
-            <td className="py-2 px-6 text-center">24.04.2023 20:33</td>
-            <td className="py-2 px-6 text-center">$25</td>
-            <td className="py-2 px-6 text-center text-bold text-green-500">
-              Kirim
-            </td>
-            <td className="py-2 px-6 text-center">Pul tushdi</td>
-            <td className="py-3 px-6 text-center">karta</td>
-          </tr>
-          <tr className="border-b border-gray-200 hover:bg-gray-100 bg-red-50">
-            <td className="py-2 px-6 text-left whitespace-nowrap">2</td>
-            <td className="py-2 px-6 text-left">Eshal Rosas</td>
-            <td className="py-2 px-6 text-center">24.04.2023 20:33</td>
-            <td className="py-2 px-6 text-center">$25</td>
-            <td className="py-2 px-6 text-center text-bold text-red-500">
-              Chiqim
-            </td>
-            <td className="py-2 px-6 text-center">Pul tushdi</td>
-            <td className="py-3 px-6 text-center">karta</td>
-          </tr>
+          {calculation.map((item) => {
+            return (
+              <tr
+                className={`border-b border-gray-200  ${
+                  item.is_input ? "bg-green-50" : "bg-red-50"
+                }`}
+                key={item.id}
+              >
+                <td className="py-2 px-6 text-left whitespace-nowrap">
+                  {item.id}
+                </td>
+                <td className="py-2 px-6 text-left">{item.name}</td>
+                <td className="py-2 px-6 text-center">{item.date}</td>
+                <td className="py-2 px-6 text-center">{item.sum}</td>
+                <td
+                  className={`py-2 px-6 text-center text-base text-bold ${
+                    item.is_input ? "text-green-600" : "text-red-500"
+                  }`}
+                >
+                  {item.is_input ? "Kirim" : "Chiqim"}
+                </td>
+                <td className="py-2 px-6 text-justify">{item.desctiption}</td>
+                <td className="py-3 px-6 text-center">{item.payment_type}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
