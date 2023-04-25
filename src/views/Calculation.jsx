@@ -1,7 +1,9 @@
 import { calculation } from "../data";
+import CalculationForm from "../components/Form/CalculationForm";
 function Calculation() {
   return (
     <>
+      <CalculationForm show="true" />
       <div className="flex items-center justify-start py-8">
         <h1 className="text-2xl text-center text-yellow-400 font-bold mr-8">
           Kunlik tushumlar
