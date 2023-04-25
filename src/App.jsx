@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Dashboard from "./views/Dashboard.jsx";
 import Calculation from "./views/Calculation.jsx";
-import Settings from "./views/Settings.jsx";
+import About from "./views/About.jsx";
 
 function App() {
   return (
@@ -35,19 +35,19 @@ function App() {
               <li className="mb-2">
                 <NavLink
                   className="flex items-center text-lg font-medium py-3 px-6 bg-yellow-100 text-gray-800 rounded-md"
-                  to="/settings"
+                  to="/about"
                 >
                   <i className="bx bxs-cog text-2xl mr-1"></i>
-                  Settings
+                  About
                 </NavLink>
               </li>
             </ul>
           </aside>
-          <main className="main flex-grow h-full overflow-x-hidden overflow-y-auto px-8 py-6">
+          <main className="main max-w-[80%] flex-grow h-full overflow-x-hidden overflow-y-auto px-8 py-6">
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/report" element={<Calculation />} />
-              <Route path="/settings" element={<Settings />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
         </div>

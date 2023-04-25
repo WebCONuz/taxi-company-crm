@@ -5,66 +5,45 @@ function Calculation() {
         <h1 className="text-2xl text-center text-yellow-400 font-bold">
           Kunlik tushumlar
         </h1>
-        <p className="text-2xl font-bold text-blue-500">Total: $840</p>
+        <div className="flex">
+          <button className="py-2 px-5 rounded bg-gray-100 mr-2">Kirim</button>
+          <button className="py-2 px-5 rounded bg-gray-100">Chiqim</button>
+        </div>
       </div>
       <table className="min-w-max w-full table-auto">
         <thead>
           <tr className="bg-gray-200 text-gray-600 uppercase text-xs leading-normal">
-            <th className="py-3 px-6 text-left">id</th>
-            <th className="py-3 px-6 text-left">Driver name</th>
-            <th className="py-3 px-6 text-center">phone</th>
-            <th className="py-3 px-6 text-center">car_number</th>
-            <th className="py-3 px-6 text-center">date</th>
-            <th className="py-3 px-6 text-center">desctiption</th>
+            <th className="py-3 px-6 text-left">No</th>
+            <th className="py-3 px-6 text-left">Hisobchi</th>
+            <th className="py-3 px-6 text-center">Sana</th>
             <th className="py-3 px-6 text-center">Summa</th>
-            <th className="py-3 px-6 text-center">Actions</th>
+            <th className="py-3 px-6 text-center">Kirim / chiqim</th>
+            <th className="py-3 px-6 text-center">sabab</th>
+            <th className="py-3 px-6 text-center">To'lov turi</th>
           </tr>
         </thead>
         <tbody className="text-gray-600 text-sm font-medium">
-          <tr className="border-b border-gray-200 hover:bg-gray-100">
+          <tr className="border-b border-gray-200 hover:bg-gray-100 bg-green-100">
             <td className="py-2 px-6 text-left whitespace-nowrap">1</td>
             <td className="py-2 px-6 text-left">Eshal Rosas</td>
-            <td className="py-2 px-6 text-center">+998995426307</td>
-            <td className="py-2 px-6 text-center text-blue-500">AC541DCA</td>
             <td className="py-2 px-6 text-center">24.04.2023 20:33</td>
-            <td className="py-3 px-6 text-center">To'liq bajarildi</td>
             <td className="py-2 px-6 text-center">$25</td>
-            <td className="py-2 px-6 text-center">
-              <div className="flex items-center justify-center">
-                <i className="bx bxs-trash text-xl mr-1"></i>
-                <i className="bx bx-edit text-xl"></i>
-              </div>
+            <td className="py-2 px-6 text-center text-bold text-green-500">
+              Kirim
             </td>
+            <td className="py-2 px-6 text-center">Pul tushdi</td>
+            <td className="py-3 px-6 text-center">karta</td>
           </tr>
-          <tr className="border-b border-gray-200 hover:bg-gray-100">
+          <tr className="border-b border-gray-200 hover:bg-gray-100 bg-red-50">
             <td className="py-2 px-6 text-left whitespace-nowrap">2</td>
             <td className="py-2 px-6 text-left">Eshal Rosas</td>
-            <td className="py-2 px-6 text-center">+998995426307</td>
-            <td className="py-2 px-6 text-center text-blue-500">AC541DCA</td>
             <td className="py-2 px-6 text-center">24.04.2023 20:33</td>
-            <td className="py-3 px-6 text-center">To'liq bajarildi</td>
             <td className="py-2 px-6 text-center">$25</td>
-            <td className="py-2 px-6 text-center">
-              <div className="flex items-center justify-center">
-                <i className="bx bxs-trash text-xl mr-1"></i>
-                <i className="bx bx-edit text-xl"></i>
-              </div>
+            <td className="py-2 px-6 text-center text-bold text-red-500">
+              Chiqim
             </td>
-          </tr>
-          <tr className="border-b border-gray-200 hover:bg-gray-100">
-            <td className="py-2 px-6 text-left whitespace-nowrap">3</td>
-            <td className="py-2 px-6 text-left">Eshal Rosas</td>
-            <td className="py-2 px-6 text-center">+998995426307</td>
-            <td className="py-2 px-6 text-center text-blue-500">AC541DCA</td>
-            <td className="py-2 px-6 text-center">24.04.2023 20:33</td>
-            <td className="py-3 px-6 text-center">To'liq bajarildi</td>
-            <td className="py-2 px-6 text-center">$25</td>
-            <td className="py-2 px-6 text-center">
-              <div className="flex items-center justify-center">
-                <i className="bx bxs-trash text-xl mr-1"></i>
-                <i className="bx bx-edit text-xl"></i>
-              </div>
-            </td>
+            <td className="py-2 px-6 text-center">Pul tushdi</td>
+            <td className="py-3 px-6 text-center">karta</td>
           </tr>
         </tbody>
       </table>
