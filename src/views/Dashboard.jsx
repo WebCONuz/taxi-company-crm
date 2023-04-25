@@ -6,6 +6,7 @@ import ChartTitle from "../ui/ChartTitle";
 import { inputs, outputs, orders } from "../data";
 import DateMaker from "../helpers/dateMaker";
 import Average from "../helpers/average";
+import CityMap from "../components/Map/Map";
 
 function Dashboard() {
   // States
@@ -227,10 +228,7 @@ function Dashboard() {
           )}
         </div>
         <div className="w-[49%] p-6 border border-gray-300 rounded-lg mb-6">
-          <div className="w-10 h-10 bg-orange-200"></div>
-          <div className="w-10 h-10 bg-orange-300"></div>
-          <div className="w-10 h-10 bg-orange-400"></div>
-          <div className="w-10 h-10 bg-orange-500"></div>
+          <CityMap />
         </div>
       </section>
     </>
