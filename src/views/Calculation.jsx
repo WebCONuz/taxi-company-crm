@@ -31,8 +31,8 @@ function Calculation() {
             <td className="py-2 px-6 text-center">$25</td>
             <td className="py-2 px-6 text-center">
               <div className="flex items-center justify-center">
-                <i class="bx bxs-trash text-xl mr-1"></i>
-                <i class="bx bx-edit text-xl"></i>
+                <i className="bx bxs-trash text-xl mr-1"></i>
+                <i className="bx bx-edit text-xl"></i>
               </div>
             </td>
           </tr>
@@ -46,8 +46,8 @@ function Calculation() {
             <td className="py-2 px-6 text-center">$25</td>
             <td className="py-2 px-6 text-center">
               <div className="flex items-center justify-center">
-                <i class="bx bxs-trash text-xl mr-1"></i>
-                <i class="bx bx-edit text-xl"></i>
+                <i className="bx bxs-trash text-xl mr-1"></i>
+                <i className="bx bx-edit text-xl"></i>
               </div>
             </td>
           </tr>
@@ -61,8 +61,8 @@ function Calculation() {
             <td className="py-2 px-6 text-center">$25</td>
             <td className="py-2 px-6 text-center">
               <div className="flex items-center justify-center">
-                <i class="bx bxs-trash text-xl mr-1"></i>
-                <i class="bx bx-edit text-xl"></i>
+                <i className="bx bxs-trash text-xl mr-1"></i>
+                <i className="bx bx-edit text-xl"></i>
               </div>
             </td>
           </tr>

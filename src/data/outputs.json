@@ -1,100 +1,802 @@
-[{"id":1,"accidents":62,"repair_services":10," tax":12,"other":16,"date":"27/03/2023"},
-{"id":2,"accidents":57,"repair_services":24," tax":19,"other":5,"date":"13/04/2023"},
-{"id":3,"accidents":33,"repair_services":41," tax":6,"other":5,"date":"17/04/2023"},
-{"id":4,"accidents":45,"repair_services":40," tax":13,"other":14,"date":"17/04/2023"},
-{"id":5,"accidents":61,"repair_services":26," tax":34,"other":0,"date":"23/04/2023"},
-{"id":6,"accidents":42,"repair_services":24," tax":20,"other":15,"date":"13/03/2023"},
-{"id":7,"accidents":44,"repair_services":34," tax":28,"other":15,"date":"13/04/2023"},
-{"id":8,"accidents":44,"repair_services":7," tax":8,"other":2,"date":"31/03/2023"},
-{"id":9,"accidents":13,"repair_services":23," tax":20,"other":9,"date":"30/03/2023"},
-{"id":10,"accidents":60,"repair_services":37," tax":19,"other":20,"date":"11/03/2023"},
-{"id":11,"accidents":75,"repair_services":30," tax":22,"other":18,"date":"02/03/2023"},
-{"id":12,"accidents":94,"repair_services":28," tax":19,"other":15,"date":"11/04/2023"},
-{"id":13,"accidents":40,"repair_services":50," tax":15,"other":0,"date":"19/03/2023"},
-{"id":14,"accidents":8,"repair_services":0," tax":15,"other":1,"date":"28/03/2023"},
-{"id":15,"accidents":84,"repair_services":12," tax":38,"other":12,"date":"14/04/2023"},
-{"id":16,"accidents":10,"repair_services":26," tax":16,"other":8,"date":"02/03/2023"},
-{"id":17,"accidents":7,"repair_services":34," tax":18,"other":7,"date":"27/03/2023"},
-{"id":18,"accidents":42,"repair_services":18," tax":16,"other":16,"date":"08/04/2023"},
-{"id":19,"accidents":23,"repair_services":39," tax":29,"other":12,"date":"19/03/2023"},
-{"id":20,"accidents":37,"repair_services":21," tax":11,"other":17,"date":"16/04/2023"},
-{"id":21,"accidents":41,"repair_services":39," tax":2,"other":16,"date":"10/04/2023"},
-{"id":22,"accidents":30,"repair_services":38," tax":33,"other":8,"date":"21/04/2023"},
-{"id":23,"accidents":66,"repair_services":12," tax":21,"other":2,"date":"03/03/2023"},
-{"id":24,"accidents":36,"repair_services":2," tax":2,"other":14,"date":"04/04/2023"},
-{"id":25,"accidents":76,"repair_services":18," tax":7,"other":11,"date":"24/03/2023"},
-{"id":26,"accidents":79,"repair_services":23," tax":27,"other":6,"date":"18/03/2023"},
-{"id":27,"accidents":59,"repair_services":55," tax":15,"other":6,"date":"13/04/2023"},
-{"id":28,"accidents":40,"repair_services":18," tax":13,"other":6,"date":"17/03/2023"},
-{"id":29,"accidents":4,"repair_services":42," tax":4,"other":7,"date":"08/03/2023"},
-{"id":30,"accidents":60,"repair_services":48," tax":37,"other":8,"date":"19/04/2023"},
-{"id":31,"accidents":20,"repair_services":23," tax":24,"other":1,"date":"10/04/2023"},
-{"id":32,"accidents":39,"repair_services":52," tax":21,"other":2,"date":"13/04/2023"},
-{"id":33,"accidents":43,"repair_services":10," tax":3,"other":12,"date":"27/03/2023"},
-{"id":34,"accidents":90,"repair_services":22," tax":30,"other":1,"date":"20/03/2023"},
-{"id":35,"accidents":22,"repair_services":37," tax":24,"other":10,"date":"06/04/2023"},
-{"id":36,"accidents":85,"repair_services":53," tax":13,"other":16,"date":"26/03/2023"},
-{"id":37,"accidents":46,"repair_services":29," tax":6,"other":10,"date":"12/04/2023"},
-{"id":38,"accidents":12,"repair_services":17," tax":37,"other":12,"date":"09/04/2023"},
-{"id":39,"accidents":51,"repair_services":47," tax":12,"other":2,"date":"01/03/2023"},
-{"id":40,"accidents":26,"repair_services":53," tax":15,"other":18,"date":"07/03/2023"},
-{"id":41,"accidents":56,"repair_services":26," tax":22,"other":8,"date":"10/04/2023"},
-{"id":42,"accidents":47,"repair_services":3," tax":36,"other":0,"date":"12/04/2023"},
-{"id":43,"accidents":6,"repair_services":23," tax":24,"other":3,"date":"14/04/2023"},
-{"id":44,"accidents":89,"repair_services":6," tax":35,"other":7,"date":"30/03/2023"},
-{"id":45,"accidents":85,"repair_services":19," tax":1,"other":6,"date":"25/03/2023"},
-{"id":46,"accidents":93,"repair_services":1," tax":39,"other":7,"date":"06/04/2023"},
-{"id":47,"accidents":44,"repair_services":24," tax":2,"other":16,"date":"20/04/2023"},
-{"id":48,"accidents":37,"repair_services":11," tax":40,"other":12,"date":"13/03/2023"},
-{"id":49,"accidents":5,"repair_services":11," tax":18,"other":6,"date":"23/04/2023"},
-{"id":50,"accidents":30,"repair_services":34," tax":40,"other":11,"date":"04/04/2023"},
-{"id":51,"accidents":59,"repair_services":10," tax":2,"other":11,"date":"04/03/2023"},
-{"id":52,"accidents":66,"repair_services":59," tax":32,"other":2,"date":"23/03/2023"},
-{"id":53,"accidents":6,"repair_services":23," tax":14,"other":5,"date":"06/04/2023"},
-{"id":54,"accidents":70,"repair_services":55," tax":34,"other":1,"date":"20/04/2023"},
-{"id":55,"accidents":27,"repair_services":39," tax":12,"other":12,"date":"31/03/2023"},
-{"id":56,"accidents":34,"repair_services":39," tax":7,"other":2,"date":"19/03/2023"},
-{"id":57,"accidents":97,"repair_services":34," tax":36,"other":11,"date":"03/03/2023"},
-{"id":58,"accidents":11,"repair_services":38," tax":37,"other":10,"date":"21/04/2023"},
-{"id":59,"accidents":83,"repair_services":51," tax":4,"other":4,"date":"22/04/2023"},
-{"id":60,"accidents":75,"repair_services":3," tax":32,"other":13,"date":"17/04/2023"},
-{"id":61,"accidents":35,"repair_services":35," tax":29,"other":17,"date":"03/03/2023"},
-{"id":62,"accidents":95,"repair_services":9," tax":30,"other":19,"date":"22/04/2023"},
-{"id":63,"accidents":35,"repair_services":54," tax":35,"other":1,"date":"06/03/2023"},
-{"id":64,"accidents":71,"repair_services":30," tax":31,"other":7,"date":"21/03/2023"},
-{"id":65,"accidents":23,"repair_services":40," tax":0,"other":1,"date":"01/03/2023"},
-{"id":66,"accidents":34,"repair_services":54," tax":35,"other":0,"date":"09/03/2023"},
-{"id":67,"accidents":4,"repair_services":25," tax":38,"other":1,"date":"06/03/2023"},
-{"id":68,"accidents":16,"repair_services":22," tax":0,"other":0,"date":"25/03/2023"},
-{"id":69,"accidents":74,"repair_services":24," tax":27,"other":16,"date":"20/04/2023"},
-{"id":70,"accidents":36,"repair_services":14," tax":9,"other":0,"date":"09/03/2023"},
-{"id":71,"accidents":83,"repair_services":34," tax":20,"other":14,"date":"19/04/2023"},
-{"id":72,"accidents":58,"repair_services":55," tax":4,"other":6,"date":"16/03/2023"},
-{"id":73,"accidents":75,"repair_services":11," tax":28,"other":14,"date":"21/04/2023"},
-{"id":74,"accidents":98,"repair_services":25," tax":11,"other":14,"date":"25/04/2023"},
-{"id":75,"accidents":79,"repair_services":0," tax":2,"other":14,"date":"01/03/2023"},
-{"id":76,"accidents":29,"repair_services":7," tax":34,"other":3,"date":"20/03/2023"},
-{"id":77,"accidents":21,"repair_services":37," tax":21,"other":4,"date":"17/04/2023"},
-{"id":78,"accidents":46,"repair_services":27," tax":7,"other":8,"date":"11/04/2023"},
-{"id":79,"accidents":4,"repair_services":51," tax":35,"other":17,"date":"24/04/2023"},
-{"id":80,"accidents":89,"repair_services":56," tax":31,"other":5,"date":"28/03/2023"},
-{"id":81,"accidents":78,"repair_services":6," tax":36,"other":11,"date":"04/03/2023"},
-{"id":82,"accidents":8,"repair_services":6," tax":39,"other":2,"date":"10/04/2023"},
-{"id":83,"accidents":17,"repair_services":56," tax":24,"other":17,"date":"12/04/2023"},
-{"id":84,"accidents":34,"repair_services":57," tax":29,"other":17,"date":"08/04/2023"},
-{"id":85,"accidents":57,"repair_services":42," tax":37,"other":14,"date":"15/03/2023"},
-{"id":86,"accidents":29,"repair_services":54," tax":24,"other":0,"date":"02/03/2023"},
-{"id":87,"accidents":47,"repair_services":16," tax":13,"other":11,"date":"11/04/2023"},
-{"id":88,"accidents":14,"repair_services":44," tax":6,"other":13,"date":"20/04/2023"},
-{"id":89,"accidents":99,"repair_services":43," tax":18,"other":7,"date":"10/04/2023"},
-{"id":90,"accidents":6,"repair_services":4," tax":16,"other":12,"date":"09/03/2023"},
-{"id":91,"accidents":76,"repair_services":44," tax":20,"other":20,"date":"08/03/2023"},
-{"id":92,"accidents":15,"repair_services":22," tax":38,"other":18,"date":"04/03/2023"},
-{"id":93,"accidents":73,"repair_services":1," tax":28,"other":20,"date":"05/03/2023"},
-{"id":94,"accidents":25,"repair_services":54," tax":6,"other":16,"date":"01/03/2023"},
-{"id":95,"accidents":76,"repair_services":9," tax":19,"other":1,"date":"30/03/2023"},
-{"id":96,"accidents":60,"repair_services":1," tax":32,"other":0,"date":"22/03/2023"},
-{"id":97,"accidents":15,"repair_services":4," tax":5,"other":9,"date":"09/03/2023"},
-{"id":98,"accidents":94,"repair_services":6," tax":4,"other":10,"date":"17/03/2023"},
-{"id":99,"accidents":97,"repair_services":15," tax":16,"other":18,"date":"06/03/2023"},
-{"id":100,"accidents":58,"repair_services":48," tax":1,"other":17,"date":"15/03/2023"}]
+[
+  {
+    "id": 1,
+    "accidents": 62,
+    "repair_services": 10,
+    "tax": 12,
+    "other": 16,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 2,
+    "accidents": 57,
+    "repair_services": 24,
+    "tax": 19,
+    "other": 5,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 3,
+    "accidents": 33,
+    "repair_services": 41,
+    "tax": 6,
+    "other": 5,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 4,
+    "accidents": 45,
+    "repair_services": 40,
+    "tax": 13,
+    "other": 14,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 5,
+    "accidents": 61,
+    "repair_services": 26,
+    "tax": 34,
+    "other": 0,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 6,
+    "accidents": 42,
+    "repair_services": 24,
+    "tax": 20,
+    "other": 15,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 7,
+    "accidents": 44,
+    "repair_services": 34,
+    "tax": 28,
+    "other": 15,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 8,
+    "accidents": 44,
+    "repair_services": 7,
+    "tax": 8,
+    "other": 2,
+    "date": "31/03/2023"
+  },
+  {
+    "id": 9,
+    "accidents": 13,
+    "repair_services": 23,
+    "tax": 20,
+    "other": 9,
+    "date": "30/03/2023"
+  },
+  {
+    "id": 10,
+    "accidents": 60,
+    "repair_services": 37,
+    "tax": 19,
+    "other": 20,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 11,
+    "accidents": 75,
+    "repair_services": 30,
+    "tax": 22,
+    "other": 18,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 12,
+    "accidents": 94,
+    "repair_services": 28,
+    "tax": 19,
+    "other": 15,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 13,
+    "accidents": 40,
+    "repair_services": 50,
+    "tax": 15,
+    "other": 0,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 14,
+    "accidents": 8,
+    "repair_services": 0,
+    "tax": 15,
+    "other": 1,
+    "date": "28/03/2023"
+  },
+  {
+    "id": 15,
+    "accidents": 84,
+    "repair_services": 12,
+    "tax": 38,
+    "other": 12,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 16,
+    "accidents": 10,
+    "repair_services": 26,
+    "tax": 16,
+    "other": 8,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 17,
+    "accidents": 7,
+    "repair_services": 34,
+    "tax": 18,
+    "other": 7,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 18,
+    "accidents": 42,
+    "repair_services": 18,
+    "tax": 16,
+    "other": 16,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 19,
+    "accidents": 23,
+    "repair_services": 39,
+    "tax": 29,
+    "other": 12,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 20,
+    "accidents": 37,
+    "repair_services": 21,
+    "tax": 11,
+    "other": 17,
+    "date": "16/04/2023"
+  },
+  {
+    "id": 21,
+    "accidents": 41,
+    "repair_services": 39,
+    "tax": 2,
+    "other": 16,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 22,
+    "accidents": 30,
+    "repair_services": 38,
+    "tax": 33,
+    "other": 8,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 23,
+    "accidents": 66,
+    "repair_services": 12,
+    "tax": 21,
+    "other": 2,
+    "date": "03/03/2023"
+  },
+  {
+    "id": 24,
+    "accidents": 36,
+    "repair_services": 2,
+    "tax": 2,
+    "other": 14,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 25,
+    "accidents": 76,
+    "repair_services": 18,
+    "tax": 7,
+    "other": 11,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 26,
+    "accidents": 79,
+    "repair_services": 23,
+    "tax": 27,
+    "other": 6,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 27,
+    "accidents": 59,
+    "repair_services": 55,
+    "tax": 15,
+    "other": 6,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 28,
+    "accidents": 40,
+    "repair_services": 18,
+    "tax": 13,
+    "other": 6,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 29,
+    "accidents": 4,
+    "repair_services": 42,
+    "tax": 4,
+    "other": 7,
+    "date": "08/03/2023"
+  },
+  {
+    "id": 30,
+    "accidents": 60,
+    "repair_services": 48,
+    "tax": 37,
+    "other": 8,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 31,
+    "accidents": 20,
+    "repair_services": 23,
+    "tax": 24,
+    "other": 1,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 32,
+    "accidents": 39,
+    "repair_services": 52,
+    "tax": 21,
+    "other": 2,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 33,
+    "accidents": 43,
+    "repair_services": 10,
+    "tax": 3,
+    "other": 12,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 34,
+    "accidents": 90,
+    "repair_services": 22,
+    "tax": 30,
+    "other": 1,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 35,
+    "accidents": 22,
+    "repair_services": 37,
+    "tax": 24,
+    "other": 10,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 36,
+    "accidents": 85,
+    "repair_services": 53,
+    "tax": 13,
+    "other": 16,
+    "date": "26/03/2023"
+  },
+  {
+    "id": 37,
+    "accidents": 46,
+    "repair_services": 29,
+    "tax": 6,
+    "other": 10,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 38,
+    "accidents": 12,
+    "repair_services": 17,
+    "tax": 37,
+    "other": 12,
+    "date": "09/04/2023"
+  },
+  {
+    "id": 39,
+    "accidents": 51,
+    "repair_services": 47,
+    "tax": 12,
+    "other": 2,
+    "date": "01/03/2023"
+  },
+  {
+    "id": 40,
+    "accidents": 26,
+    "repair_services": 53,
+    "tax": 15,
+    "other": 18,
+    "date": "07/03/2023"
+  },
+  {
+    "id": 41,
+    "accidents": 56,
+    "repair_services": 26,
+    "tax": 22,
+    "other": 8,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 42,
+    "accidents": 47,
+    "repair_services": 3,
+    "tax": 36,
+    "other": 0,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 43,
+    "accidents": 6,
+    "repair_services": 23,
+    "tax": 24,
+    "other": 3,
+    "date": "14/04/2023"
+  },
+  {
+    "id": 44,
+    "accidents": 89,
+    "repair_services": 6,
+    "tax": 35,
+    "other": 7,
+    "date": "30/03/2023"
+  },
+  {
+    "id": 45,
+    "accidents": 85,
+    "repair_services": 19,
+    "tax": 1,
+    "other": 6,
+    "date": "25/03/2023"
+  },
+  {
+    "id": 46,
+    "accidents": 93,
+    "repair_services": 1,
+    "tax": 39,
+    "other": 7,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 47,
+    "accidents": 44,
+    "repair_services": 24,
+    "tax": 2,
+    "other": 16,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 48,
+    "accidents": 37,
+    "repair_services": 11,
+    "tax": 40,
+    "other": 12,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 49,
+    "accidents": 5,
+    "repair_services": 11,
+    "tax": 18,
+    "other": 6,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 50,
+    "accidents": 30,
+    "repair_services": 34,
+    "tax": 40,
+    "other": 11,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 51,
+    "accidents": 59,
+    "repair_services": 10,
+    "tax": 2,
+    "other": 11,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 52,
+    "accidents": 66,
+    "repair_services": 59,
+    "tax": 32,
+    "other": 2,
+    "date": "23/03/2023"
+  },
+  {
+    "id": 53,
+    "accidents": 6,
+    "repair_services": 23,
+    "tax": 14,
+    "other": 5,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 54,
+    "accidents": 70,
+    "repair_services": 55,
+    "tax": 34,
+    "other": 1,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 55,
+    "accidents": 27,
+    "repair_services": 39,
+    "tax": 12,
+    "other": 12,
+    "date": "31/03/2023"
+  },
+  {
+    "id": 56,
+    "accidents": 34,
+    "repair_services": 39,
+    "tax": 7,
+    "other": 2,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 57,
+    "accidents": 97,
+    "repair_services": 34,
+    "tax": 36,
+    "other": 11,
+    "date": "03/03/2023"
+  },
+  {
+    "id": 58,
+    "accidents": 11,
+    "repair_services": 38,
+    "tax": 37,
+    "other": 10,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 59,
+    "accidents": 83,
+    "repair_services": 51,
+    "tax": 4,
+    "other": 4,
+    "date": "22/04/2023"
+  },
+  {
+    "id": 60,
+    "accidents": 75,
+    "repair_services": 3,
+    "tax": 32,
+    "other": 13,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 61,
+    "accidents": 35,
+    "repair_services": 35,
+    "tax": 29,
+    "other": 17,
+    "date": "03/03/2023"
+  },
+  {
+    "id": 62,
+    "accidents": 95,
+    "repair_services": 9,
+    "tax": 30,
+    "other": 19,
+    "date": "22/04/2023"
+  },
+  {
+    "id": 63,
+    "accidents": 35,
+    "repair_services": 54,
+    "tax": 35,
+    "other": 1,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 64,
+    "accidents": 71,
+    "repair_services": 30,
+    "tax": 31,
+    "other": 7,
+    "date": "21/03/2023"
+  },
+  {
+    "id": 65,
+    "accidents": 23,
+    "repair_services": 40,
+    "tax": 0,
+    "other": 1,
+    "date": "01/03/2023"
+  },
+  {
+    "id": 66,
+    "accidents": 34,
+    "repair_services": 54,
+    "tax": 35,
+    "other": 0,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 67,
+    "accidents": 4,
+    "repair_services": 25,
+    "tax": 38,
+    "other": 1,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 68,
+    "accidents": 16,
+    "repair_services": 22,
+    "tax": 0,
+    "other": 0,
+    "date": "25/03/2023"
+  },
+  {
+    "id": 69,
+    "accidents": 74,
+    "repair_services": 24,
+    "tax": 27,
+    "other": 16,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 70,
+    "accidents": 36,
+    "repair_services": 14,
+    "tax": 9,
+    "other": 0,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 71,
+    "accidents": 83,
+    "repair_services": 34,
+    "tax": 20,
+    "other": 14,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 72,
+    "accidents": 58,
+    "repair_services": 55,
+    "tax": 4,
+    "other": 6,
+    "date": "16/03/2023"
+  },
+  {
+    "id": 73,
+    "accidents": 75,
+    "repair_services": 11,
+    "tax": 28,
+    "other": 14,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 74,
+    "accidents": 98,
+    "repair_services": 25,
+    "tax": 11,
+    "other": 14,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 75,
+    "accidents": 79,
+    "repair_services": 0,
+    "tax": 2,
+    "other": 14,
+    "date": "01/03/2023"
+  },
+  {
+    "id": 76,
+    "accidents": 29,
+    "repair_services": 7,
+    "tax": 34,
+    "other": 3,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 77,
+    "accidents": 21,
+    "repair_services": 37,
+    "tax": 21,
+    "other": 4,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 78,
+    "accidents": 46,
+    "repair_services": 27,
+    "tax": 7,
+    "other": 8,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 79,
+    "accidents": 4,
+    "repair_services": 51,
+    "tax": 35,
+    "other": 17,
+    "date": "24/04/2023"
+  },
+  {
+    "id": 80,
+    "accidents": 89,
+    "repair_services": 56,
+    "tax": 31,
+    "other": 5,
+    "date": "28/03/2023"
+  },
+  {
+    "id": 81,
+    "accidents": 78,
+    "repair_services": 6,
+    "tax": 36,
+    "other": 11,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 82,
+    "accidents": 8,
+    "repair_services": 6,
+    "tax": 39,
+    "other": 2,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 83,
+    "accidents": 17,
+    "repair_services": 56,
+    "tax": 24,
+    "other": 17,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 84,
+    "accidents": 34,
+    "repair_services": 57,
+    "tax": 29,
+    "other": 17,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 85,
+    "accidents": 57,
+    "repair_services": 42,
+    "tax": 37,
+    "other": 14,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 86,
+    "accidents": 29,
+    "repair_services": 54,
+    "tax": 24,
+    "other": 0,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 87,
+    "accidents": 47,
+    "repair_services": 16,
+    "tax": 13,
+    "other": 11,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 88,
+    "accidents": 14,
+    "repair_services": 44,
+    "tax": 6,
+    "other": 13,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 89,
+    "accidents": 99,
+    "repair_services": 43,
+    "tax": 18,
+    "other": 7,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 90,
+    "accidents": 6,
+    "repair_services": 4,
+    "tax": 16,
+    "other": 12,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 91,
+    "accidents": 76,
+    "repair_services": 44,
+    "tax": 20,
+    "other": 20,
+    "date": "08/03/2023"
+  },
+  {
+    "id": 92,
+    "accidents": 15,
+    "repair_services": 22,
+    "tax": 38,
+    "other": 18,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 93,
+    "accidents": 73,
+    "repair_services": 1,
+    "tax": 28,
+    "other": 20,
+    "date": "05/03/2023"
+  },
+  {
+    "id": 94,
+    "accidents": 25,
+    "repair_services": 54,
+    "tax": 6,
+    "other": 16,
+    "date": "01/03/2023"
+  },
+  {
+    "id": 95,
+    "accidents": 76,
+    "repair_services": 9,
+    "tax": 19,
+    "other": 1,
+    "date": "30/03/2023"
+  },
+  {
+    "id": 96,
+    "accidents": 60,
+    "repair_services": 1,
+    "tax": 32,
+    "other": 0,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 97,
+    "accidents": 15,
+    "repair_services": 4,
+    "tax": 5,
+    "other": 9,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 98,
+    "accidents": 94,
+    "repair_services": 6,
+    "tax": 4,
+    "other": 10,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 99,
+    "accidents": 97,
+    "repair_services": 15,
+    "tax": 16,
+    "other": 18,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 100,
+    "accidents": 58,
+    "repair_services": 48,
+    "tax": 1,
+    "other": 17,
+    "date": "15/03/2023"
+  }
+]

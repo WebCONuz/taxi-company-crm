@@ -1,100 +1,802 @@
-[{"id":1,"taxi_services":62,"repair_services":47,"delivery":70,"other":3,"date":"10/04/2023"},
-{"id":2,"taxi_services":12,"repair_services":70,"delivery":45,"other":9,"date":"13/03/2023"},
-{"id":3,"taxi_services":11,"repair_services":8,"delivery":99,"other":0,"date":"02/04/2023"},
-{"id":4,"taxi_services":91,"repair_services":56,"delivery":74,"other":13,"date":"06/03/2023"},
-{"id":5,"taxi_services":96,"repair_services":98,"delivery":69,"other":4,"date":"23/04/2023"},
-{"id":6,"taxi_services":36,"repair_services":51,"delivery":79,"other":8,"date":"12/04/2023"},
-{"id":7,"taxi_services":81,"repair_services":28,"delivery":89,"other":6,"date":"29/03/2023"},
-{"id":8,"taxi_services":0,"repair_services":44,"delivery":97,"other":16,"date":"21/04/2023"},
-{"id":9,"taxi_services":81,"repair_services":3,"delivery":96,"other":13,"date":"25/04/2023"},
-{"id":10,"taxi_services":68,"repair_services":98,"delivery":5,"other":2,"date":"22/03/2023"},
-{"id":11,"taxi_services":89,"repair_services":30,"delivery":44,"other":20,"date":"26/03/2023"},
-{"id":12,"taxi_services":0,"repair_services":22,"delivery":89,"other":6,"date":"12/03/2023"},
-{"id":13,"taxi_services":18,"repair_services":56,"delivery":78,"other":17,"date":"05/03/2023"},
-{"id":14,"taxi_services":17,"repair_services":97,"delivery":81,"other":4,"date":"15/03/2023"},
-{"id":15,"taxi_services":40,"repair_services":13,"delivery":8,"other":6,"date":"13/04/2023"},
-{"id":16,"taxi_services":53,"repair_services":21,"delivery":43,"other":20,"date":"21/04/2023"},
-{"id":17,"taxi_services":24,"repair_services":74,"delivery":75,"other":1,"date":"08/04/2023"},
-{"id":18,"taxi_services":73,"repair_services":84,"delivery":89,"other":10,"date":"25/03/2023"},
-{"id":19,"taxi_services":67,"repair_services":100,"delivery":29,"other":16,"date":"19/03/2023"},
-{"id":20,"taxi_services":35,"repair_services":100,"delivery":59,"other":10,"date":"15/04/2023"},
-{"id":21,"taxi_services":14,"repair_services":90,"delivery":5,"other":6,"date":"17/03/2023"},
-{"id":22,"taxi_services":6,"repair_services":18,"delivery":41,"other":6,"date":"25/04/2023"},
-{"id":23,"taxi_services":0,"repair_services":28,"delivery":73,"other":15,"date":"20/04/2023"},
-{"id":24,"taxi_services":8,"repair_services":28,"delivery":10,"other":10,"date":"08/04/2023"},
-{"id":25,"taxi_services":86,"repair_services":31,"delivery":78,"other":3,"date":"07/03/2023"},
-{"id":26,"taxi_services":100,"repair_services":29,"delivery":16,"other":15,"date":"08/04/2023"},
-{"id":27,"taxi_services":11,"repair_services":68,"delivery":31,"other":15,"date":"21/04/2023"},
-{"id":28,"taxi_services":80,"repair_services":37,"delivery":96,"other":8,"date":"18/04/2023"},
-{"id":29,"taxi_services":11,"repair_services":63,"delivery":81,"other":12,"date":"04/03/2023"},
-{"id":30,"taxi_services":10,"repair_services":34,"delivery":86,"other":5,"date":"21/04/2023"},
-{"id":31,"taxi_services":45,"repair_services":100,"delivery":77,"other":18,"date":"10/04/2023"},
-{"id":32,"taxi_services":1,"repair_services":31,"delivery":8,"other":3,"date":"09/03/2023"},
-{"id":33,"taxi_services":95,"repair_services":26,"delivery":55,"other":1,"date":"16/04/2023"},
-{"id":34,"taxi_services":94,"repair_services":43,"delivery":59,"other":12,"date":"24/03/2023"},
-{"id":35,"taxi_services":77,"repair_services":86,"delivery":87,"other":14,"date":"25/04/2023"},
-{"id":36,"taxi_services":50,"repair_services":51,"delivery":36,"other":18,"date":"19/04/2023"},
-{"id":37,"taxi_services":46,"repair_services":41,"delivery":27,"other":3,"date":"06/03/2023"},
-{"id":38,"taxi_services":24,"repair_services":72,"delivery":8,"other":15,"date":"20/04/2023"},
-{"id":39,"taxi_services":94,"repair_services":29,"delivery":12,"other":8,"date":"02/03/2023"},
-{"id":40,"taxi_services":72,"repair_services":72,"delivery":2,"other":15,"date":"22/03/2023"},
-{"id":41,"taxi_services":77,"repair_services":1,"delivery":28,"other":10,"date":"27/03/2023"},
-{"id":42,"taxi_services":86,"repair_services":8,"delivery":42,"other":13,"date":"20/04/2023"},
-{"id":43,"taxi_services":54,"repair_services":64,"delivery":99,"other":3,"date":"09/03/2023"},
-{"id":44,"taxi_services":66,"repair_services":85,"delivery":15,"other":0,"date":"16/03/2023"},
-{"id":45,"taxi_services":20,"repair_services":37,"delivery":58,"other":20,"date":"08/03/2023"},
-{"id":46,"taxi_services":46,"repair_services":59,"delivery":18,"other":2,"date":"31/03/2023"},
-{"id":47,"taxi_services":43,"repair_services":58,"delivery":50,"other":10,"date":"27/03/2023"},
-{"id":48,"taxi_services":71,"repair_services":65,"delivery":53,"other":14,"date":"09/03/2023"},
-{"id":49,"taxi_services":92,"repair_services":95,"delivery":12,"other":15,"date":"23/04/2023"},
-{"id":50,"taxi_services":36,"repair_services":63,"delivery":25,"other":16,"date":"30/03/2023"},
-{"id":51,"taxi_services":34,"repair_services":74,"delivery":46,"other":0,"date":"23/03/2023"},
-{"id":52,"taxi_services":36,"repair_services":39,"delivery":100,"other":0,"date":"12/04/2023"},
-{"id":53,"taxi_services":57,"repair_services":15,"delivery":95,"other":3,"date":"22/03/2023"},
-{"id":54,"taxi_services":86,"repair_services":3,"delivery":72,"other":6,"date":"04/03/2023"},
-{"id":55,"taxi_services":43,"repair_services":15,"delivery":39,"other":5,"date":"06/04/2023"},
-{"id":56,"taxi_services":11,"repair_services":91,"delivery":90,"other":12,"date":"22/03/2023"},
-{"id":57,"taxi_services":21,"repair_services":72,"delivery":95,"other":7,"date":"09/03/2023"},
-{"id":58,"taxi_services":75,"repair_services":12,"delivery":65,"other":19,"date":"16/04/2023"},
-{"id":59,"taxi_services":14,"repair_services":70,"delivery":25,"other":4,"date":"22/03/2023"},
-{"id":60,"taxi_services":16,"repair_services":47,"delivery":48,"other":20,"date":"02/03/2023"},
-{"id":61,"taxi_services":100,"repair_services":5,"delivery":37,"other":9,"date":"18/04/2023"},
-{"id":62,"taxi_services":41,"repair_services":91,"delivery":42,"other":19,"date":"16/03/2023"},
-{"id":63,"taxi_services":18,"repair_services":17,"delivery":55,"other":11,"date":"01/04/2023"},
-{"id":64,"taxi_services":61,"repair_services":75,"delivery":50,"other":20,"date":"16/04/2023"},
-{"id":65,"taxi_services":4,"repair_services":31,"delivery":77,"other":0,"date":"20/03/2023"},
-{"id":66,"taxi_services":68,"repair_services":8,"delivery":74,"other":15,"date":"20/03/2023"},
-{"id":67,"taxi_services":22,"repair_services":43,"delivery":98,"other":5,"date":"13/03/2023"},
-{"id":68,"taxi_services":44,"repair_services":4,"delivery":7,"other":20,"date":"20/04/2023"},
-{"id":69,"taxi_services":5,"repair_services":16,"delivery":12,"other":1,"date":"12/04/2023"},
-{"id":70,"taxi_services":59,"repair_services":78,"delivery":8,"other":18,"date":"21/04/2023"},
-{"id":71,"taxi_services":37,"repair_services":97,"delivery":30,"other":3,"date":"18/03/2023"},
-{"id":72,"taxi_services":88,"repair_services":4,"delivery":63,"other":6,"date":"11/04/2023"},
-{"id":73,"taxi_services":48,"repair_services":15,"delivery":73,"other":2,"date":"06/03/2023"},
-{"id":74,"taxi_services":41,"repair_services":95,"delivery":51,"other":4,"date":"06/04/2023"},
-{"id":75,"taxi_services":72,"repair_services":31,"delivery":40,"other":4,"date":"17/04/2023"},
-{"id":76,"taxi_services":71,"repair_services":15,"delivery":79,"other":18,"date":"01/04/2023"},
-{"id":77,"taxi_services":13,"repair_services":18,"delivery":32,"other":10,"date":"21/03/2023"},
-{"id":78,"taxi_services":97,"repair_services":7,"delivery":9,"other":6,"date":"13/04/2023"},
-{"id":79,"taxi_services":21,"repair_services":62,"delivery":40,"other":20,"date":"04/04/2023"},
-{"id":80,"taxi_services":91,"repair_services":43,"delivery":7,"other":8,"date":"18/03/2023"},
-{"id":81,"taxi_services":24,"repair_services":11,"delivery":83,"other":18,"date":"04/04/2023"},
-{"id":82,"taxi_services":99,"repair_services":58,"delivery":88,"other":4,"date":"13/03/2023"},
-{"id":83,"taxi_services":14,"repair_services":92,"delivery":65,"other":10,"date":"13/03/2023"},
-{"id":84,"taxi_services":3,"repair_services":7,"delivery":21,"other":3,"date":"21/04/2023"},
-{"id":85,"taxi_services":7,"repair_services":21,"delivery":19,"other":18,"date":"03/03/2023"},
-{"id":86,"taxi_services":2,"repair_services":85,"delivery":96,"other":10,"date":"30/03/2023"},
-{"id":87,"taxi_services":18,"repair_services":99,"delivery":97,"other":14,"date":"12/03/2023"},
-{"id":88,"taxi_services":91,"repair_services":57,"delivery":61,"other":8,"date":"29/03/2023"},
-{"id":89,"taxi_services":86,"repair_services":66,"delivery":73,"other":8,"date":"12/04/2023"},
-{"id":90,"taxi_services":77,"repair_services":48,"delivery":97,"other":11,"date":"07/03/2023"},
-{"id":91,"taxi_services":35,"repair_services":31,"delivery":91,"other":6,"date":"13/04/2023"},
-{"id":92,"taxi_services":11,"repair_services":12,"delivery":24,"other":15,"date":"29/03/2023"},
-{"id":93,"taxi_services":10,"repair_services":35,"delivery":53,"other":14,"date":"23/04/2023"},
-{"id":94,"taxi_services":97,"repair_services":53,"delivery":50,"other":2,"date":"04/03/2023"},
-{"id":95,"taxi_services":100,"repair_services":91,"delivery":62,"other":1,"date":"25/04/2023"},
-{"id":96,"taxi_services":65,"repair_services":54,"delivery":51,"other":10,"date":"20/03/2023"},
-{"id":97,"taxi_services":1,"repair_services":100,"delivery":47,"other":15,"date":"02/04/2023"},
-{"id":98,"taxi_services":14,"repair_services":62,"delivery":68,"other":7,"date":"12/03/2023"},
-{"id":99,"taxi_services":32,"repair_services":9,"delivery":99,"other":9,"date":"07/03/2023"},
-{"id":100,"taxi_services":61,"repair_services":22,"delivery":27,"other":10,"date":"22/04/2023"}]
+[
+  {
+    "id": 1,
+    "taxi_services": 62,
+    "repair_services": 47,
+    "delivery": 70,
+    "other": 3,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 2,
+    "taxi_services": 12,
+    "repair_services": 70,
+    "delivery": 45,
+    "other": 9,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 3,
+    "taxi_services": 11,
+    "repair_services": 8,
+    "delivery": 99,
+    "other": 0,
+    "date": "02/04/2023"
+  },
+  {
+    "id": 4,
+    "taxi_services": 91,
+    "repair_services": 56,
+    "delivery": 74,
+    "other": 13,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 5,
+    "taxi_services": 96,
+    "repair_services": 98,
+    "delivery": 69,
+    "other": 4,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 6,
+    "taxi_services": 36,
+    "repair_services": 51,
+    "delivery": 79,
+    "other": 8,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 7,
+    "taxi_services": 81,
+    "repair_services": 28,
+    "delivery": 89,
+    "other": 6,
+    "date": "29/03/2023"
+  },
+  {
+    "id": 8,
+    "taxi_services": 0,
+    "repair_services": 44,
+    "delivery": 97,
+    "other": 16,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 9,
+    "taxi_services": 81,
+    "repair_services": 3,
+    "delivery": 96,
+    "other": 13,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 10,
+    "taxi_services": 68,
+    "repair_services": 98,
+    "delivery": 5,
+    "other": 2,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 11,
+    "taxi_services": 89,
+    "repair_services": 30,
+    "delivery": 44,
+    "other": 20,
+    "date": "26/03/2023"
+  },
+  {
+    "id": 12,
+    "taxi_services": 0,
+    "repair_services": 22,
+    "delivery": 89,
+    "other": 6,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 13,
+    "taxi_services": 18,
+    "repair_services": 56,
+    "delivery": 78,
+    "other": 17,
+    "date": "05/03/2023"
+  },
+  {
+    "id": 14,
+    "taxi_services": 17,
+    "repair_services": 97,
+    "delivery": 81,
+    "other": 4,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 15,
+    "taxi_services": 40,
+    "repair_services": 13,
+    "delivery": 8,
+    "other": 6,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 16,
+    "taxi_services": 53,
+    "repair_services": 21,
+    "delivery": 43,
+    "other": 20,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 17,
+    "taxi_services": 24,
+    "repair_services": 74,
+    "delivery": 75,
+    "other": 1,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 18,
+    "taxi_services": 73,
+    "repair_services": 84,
+    "delivery": 89,
+    "other": 10,
+    "date": "25/03/2023"
+  },
+  {
+    "id": 19,
+    "taxi_services": 67,
+    "repair_services": 100,
+    "delivery": 29,
+    "other": 16,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 20,
+    "taxi_services": 35,
+    "repair_services": 100,
+    "delivery": 59,
+    "other": 10,
+    "date": "15/04/2023"
+  },
+  {
+    "id": 21,
+    "taxi_services": 14,
+    "repair_services": 90,
+    "delivery": 5,
+    "other": 6,
+    "date": "17/03/2023"
+  },
+  {
+    "id": 22,
+    "taxi_services": 6,
+    "repair_services": 18,
+    "delivery": 41,
+    "other": 6,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 23,
+    "taxi_services": 0,
+    "repair_services": 28,
+    "delivery": 73,
+    "other": 15,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 24,
+    "taxi_services": 8,
+    "repair_services": 28,
+    "delivery": 10,
+    "other": 10,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 25,
+    "taxi_services": 86,
+    "repair_services": 31,
+    "delivery": 78,
+    "other": 3,
+    "date": "07/03/2023"
+  },
+  {
+    "id": 26,
+    "taxi_services": 100,
+    "repair_services": 29,
+    "delivery": 16,
+    "other": 15,
+    "date": "08/04/2023"
+  },
+  {
+    "id": 27,
+    "taxi_services": 11,
+    "repair_services": 68,
+    "delivery": 31,
+    "other": 15,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 28,
+    "taxi_services": 80,
+    "repair_services": 37,
+    "delivery": 96,
+    "other": 8,
+    "date": "18/04/2023"
+  },
+  {
+    "id": 29,
+    "taxi_services": 11,
+    "repair_services": 63,
+    "delivery": 81,
+    "other": 12,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 30,
+    "taxi_services": 10,
+    "repair_services": 34,
+    "delivery": 86,
+    "other": 5,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 31,
+    "taxi_services": 45,
+    "repair_services": 100,
+    "delivery": 77,
+    "other": 18,
+    "date": "10/04/2023"
+  },
+  {
+    "id": 32,
+    "taxi_services": 1,
+    "repair_services": 31,
+    "delivery": 8,
+    "other": 3,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 33,
+    "taxi_services": 95,
+    "repair_services": 26,
+    "delivery": 55,
+    "other": 1,
+    "date": "16/04/2023"
+  },
+  {
+    "id": 34,
+    "taxi_services": 94,
+    "repair_services": 43,
+    "delivery": 59,
+    "other": 12,
+    "date": "24/03/2023"
+  },
+  {
+    "id": 35,
+    "taxi_services": 77,
+    "repair_services": 86,
+    "delivery": 87,
+    "other": 14,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 36,
+    "taxi_services": 50,
+    "repair_services": 51,
+    "delivery": 36,
+    "other": 18,
+    "date": "19/04/2023"
+  },
+  {
+    "id": 37,
+    "taxi_services": 46,
+    "repair_services": 41,
+    "delivery": 27,
+    "other": 3,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 38,
+    "taxi_services": 24,
+    "repair_services": 72,
+    "delivery": 8,
+    "other": 15,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 39,
+    "taxi_services": 94,
+    "repair_services": 29,
+    "delivery": 12,
+    "other": 8,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 40,
+    "taxi_services": 72,
+    "repair_services": 72,
+    "delivery": 2,
+    "other": 15,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 41,
+    "taxi_services": 77,
+    "repair_services": 1,
+    "delivery": 28,
+    "other": 10,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 42,
+    "taxi_services": 86,
+    "repair_services": 8,
+    "delivery": 42,
+    "other": 13,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 43,
+    "taxi_services": 54,
+    "repair_services": 64,
+    "delivery": 99,
+    "other": 3,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 44,
+    "taxi_services": 66,
+    "repair_services": 85,
+    "delivery": 15,
+    "other": 0,
+    "date": "16/03/2023"
+  },
+  {
+    "id": 45,
+    "taxi_services": 20,
+    "repair_services": 37,
+    "delivery": 58,
+    "other": 20,
+    "date": "08/03/2023"
+  },
+  {
+    "id": 46,
+    "taxi_services": 46,
+    "repair_services": 59,
+    "delivery": 18,
+    "other": 2,
+    "date": "31/03/2023"
+  },
+  {
+    "id": 47,
+    "taxi_services": 43,
+    "repair_services": 58,
+    "delivery": 50,
+    "other": 10,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 48,
+    "taxi_services": 71,
+    "repair_services": 65,
+    "delivery": 53,
+    "other": 14,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 49,
+    "taxi_services": 92,
+    "repair_services": 95,
+    "delivery": 12,
+    "other": 15,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 50,
+    "taxi_services": 36,
+    "repair_services": 63,
+    "delivery": 25,
+    "other": 16,
+    "date": "30/03/2023"
+  },
+  {
+    "id": 51,
+    "taxi_services": 34,
+    "repair_services": 74,
+    "delivery": 46,
+    "other": 0,
+    "date": "23/03/2023"
+  },
+  {
+    "id": 52,
+    "taxi_services": 36,
+    "repair_services": 39,
+    "delivery": 100,
+    "other": 0,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 53,
+    "taxi_services": 57,
+    "repair_services": 15,
+    "delivery": 95,
+    "other": 3,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 54,
+    "taxi_services": 86,
+    "repair_services": 3,
+    "delivery": 72,
+    "other": 6,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 55,
+    "taxi_services": 43,
+    "repair_services": 15,
+    "delivery": 39,
+    "other": 5,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 56,
+    "taxi_services": 11,
+    "repair_services": 91,
+    "delivery": 90,
+    "other": 12,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 57,
+    "taxi_services": 21,
+    "repair_services": 72,
+    "delivery": 95,
+    "other": 7,
+    "date": "09/03/2023"
+  },
+  {
+    "id": 58,
+    "taxi_services": 75,
+    "repair_services": 12,
+    "delivery": 65,
+    "other": 19,
+    "date": "16/04/2023"
+  },
+  {
+    "id": 59,
+    "taxi_services": 14,
+    "repair_services": 70,
+    "delivery": 25,
+    "other": 4,
+    "date": "22/03/2023"
+  },
+  {
+    "id": 60,
+    "taxi_services": 16,
+    "repair_services": 47,
+    "delivery": 48,
+    "other": 20,
+    "date": "02/03/2023"
+  },
+  {
+    "id": 61,
+    "taxi_services": 100,
+    "repair_services": 5,
+    "delivery": 37,
+    "other": 9,
+    "date": "18/04/2023"
+  },
+  {
+    "id": 62,
+    "taxi_services": 41,
+    "repair_services": 91,
+    "delivery": 42,
+    "other": 19,
+    "date": "16/03/2023"
+  },
+  {
+    "id": 63,
+    "taxi_services": 18,
+    "repair_services": 17,
+    "delivery": 55,
+    "other": 11,
+    "date": "01/04/2023"
+  },
+  {
+    "id": 64,
+    "taxi_services": 61,
+    "repair_services": 75,
+    "delivery": 50,
+    "other": 20,
+    "date": "16/04/2023"
+  },
+  {
+    "id": 65,
+    "taxi_services": 4,
+    "repair_services": 31,
+    "delivery": 77,
+    "other": 0,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 66,
+    "taxi_services": 68,
+    "repair_services": 8,
+    "delivery": 74,
+    "other": 15,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 67,
+    "taxi_services": 22,
+    "repair_services": 43,
+    "delivery": 98,
+    "other": 5,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 68,
+    "taxi_services": 44,
+    "repair_services": 4,
+    "delivery": 7,
+    "other": 20,
+    "date": "20/04/2023"
+  },
+  {
+    "id": 69,
+    "taxi_services": 5,
+    "repair_services": 16,
+    "delivery": 12,
+    "other": 1,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 70,
+    "taxi_services": 59,
+    "repair_services": 78,
+    "delivery": 8,
+    "other": 18,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 71,
+    "taxi_services": 37,
+    "repair_services": 97,
+    "delivery": 30,
+    "other": 3,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 72,
+    "taxi_services": 88,
+    "repair_services": 4,
+    "delivery": 63,
+    "other": 6,
+    "date": "11/04/2023"
+  },
+  {
+    "id": 73,
+    "taxi_services": 48,
+    "repair_services": 15,
+    "delivery": 73,
+    "other": 2,
+    "date": "06/03/2023"
+  },
+  {
+    "id": 74,
+    "taxi_services": 41,
+    "repair_services": 95,
+    "delivery": 51,
+    "other": 4,
+    "date": "06/04/2023"
+  },
+  {
+    "id": 75,
+    "taxi_services": 72,
+    "repair_services": 31,
+    "delivery": 40,
+    "other": 4,
+    "date": "17/04/2023"
+  },
+  {
+    "id": 76,
+    "taxi_services": 71,
+    "repair_services": 15,
+    "delivery": 79,
+    "other": 18,
+    "date": "01/04/2023"
+  },
+  {
+    "id": 77,
+    "taxi_services": 13,
+    "repair_services": 18,
+    "delivery": 32,
+    "other": 10,
+    "date": "21/03/2023"
+  },
+  {
+    "id": 78,
+    "taxi_services": 97,
+    "repair_services": 7,
+    "delivery": 9,
+    "other": 6,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 79,
+    "taxi_services": 21,
+    "repair_services": 62,
+    "delivery": 40,
+    "other": 20,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 80,
+    "taxi_services": 91,
+    "repair_services": 43,
+    "delivery": 7,
+    "other": 8,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 81,
+    "taxi_services": 24,
+    "repair_services": 11,
+    "delivery": 83,
+    "other": 18,
+    "date": "04/04/2023"
+  },
+  {
+    "id": 82,
+    "taxi_services": 99,
+    "repair_services": 58,
+    "delivery": 88,
+    "other": 4,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 83,
+    "taxi_services": 14,
+    "repair_services": 92,
+    "delivery": 65,
+    "other": 10,
+    "date": "13/03/2023"
+  },
+  {
+    "id": 84,
+    "taxi_services": 3,
+    "repair_services": 7,
+    "delivery": 21,
+    "other": 3,
+    "date": "21/04/2023"
+  },
+  {
+    "id": 85,
+    "taxi_services": 7,
+    "repair_services": 21,
+    "delivery": 19,
+    "other": 18,
+    "date": "03/03/2023"
+  },
+  {
+    "id": 86,
+    "taxi_services": 2,
+    "repair_services": 85,
+    "delivery": 96,
+    "other": 10,
+    "date": "30/03/2023"
+  },
+  {
+    "id": 87,
+    "taxi_services": 18,
+    "repair_services": 99,
+    "delivery": 97,
+    "other": 14,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 88,
+    "taxi_services": 91,
+    "repair_services": 57,
+    "delivery": 61,
+    "other": 8,
+    "date": "29/03/2023"
+  },
+  {
+    "id": 89,
+    "taxi_services": 86,
+    "repair_services": 66,
+    "delivery": 73,
+    "other": 8,
+    "date": "12/04/2023"
+  },
+  {
+    "id": 90,
+    "taxi_services": 77,
+    "repair_services": 48,
+    "delivery": 97,
+    "other": 11,
+    "date": "07/03/2023"
+  },
+  {
+    "id": 91,
+    "taxi_services": 35,
+    "repair_services": 31,
+    "delivery": 91,
+    "other": 6,
+    "date": "13/04/2023"
+  },
+  {
+    "id": 92,
+    "taxi_services": 11,
+    "repair_services": 12,
+    "delivery": 24,
+    "other": 15,
+    "date": "29/03/2023"
+  },
+  {
+    "id": 93,
+    "taxi_services": 10,
+    "repair_services": 35,
+    "delivery": 53,
+    "other": 14,
+    "date": "23/04/2023"
+  },
+  {
+    "id": 94,
+    "taxi_services": 97,
+    "repair_services": 53,
+    "delivery": 50,
+    "other": 2,
+    "date": "04/03/2023"
+  },
+  {
+    "id": 95,
+    "taxi_services": 100,
+    "repair_services": 91,
+    "delivery": 62,
+    "other": 1,
+    "date": "25/04/2023"
+  },
+  {
+    "id": 96,
+    "taxi_services": 65,
+    "repair_services": 54,
+    "delivery": 51,
+    "other": 10,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 97,
+    "taxi_services": 1,
+    "repair_services": 100,
+    "delivery": 47,
+    "other": 15,
+    "date": "02/04/2023"
+  },
+  {
+    "id": 98,
+    "taxi_services": 14,
+    "repair_services": 62,
+    "delivery": 68,
+    "other": 7,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 99,
+    "taxi_services": 32,
+    "repair_services": 9,
+    "delivery": 99,
+    "other": 9,
+    "date": "07/03/2023"
+  },
+  {
+    "id": 100,
+    "taxi_services": 61,
+    "repair_services": 22,
+    "delivery": 27,
+    "other": 10,
+    "date": "22/04/2023"
+  }
+]
