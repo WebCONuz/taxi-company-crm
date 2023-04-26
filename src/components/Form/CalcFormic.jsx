@@ -2,17 +2,43 @@ import { Form, Formik } from "formik";
 import { calculationSchema } from "../../schemas";
 import CustomInput from "./CustomInput";
 import CustomSelect from "./CustomSelect";
+import { useEffect, useState } from "react";
+// import { useSelector, useDispatch } from "react-redux";
+// import { postData } from "../../redux/PostData";
 
-const onSubmit = async (values, actions) => {
-  console.log(values);
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-  actions.resetForm();
-};
+const CalcForm = ({ initData, dataChanged, showFunction }) => {
+  const [newData, setNewData] = useState(null);
+  // const { postdata } = useSelector((store) => store);
+  // const dispatch = useDispatch();
 
-const CalcForm = () => {
+  const onSubmit = async (values, actions) => {
+    setNewData({
+      ...initData,
+      ...values,
+    });
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    actions.resetForm();
+  };
+
+  useEffect(() => {
+    if (newData) {
+      // const postNewData = async () => {
+      //   await dispatch(postData({ url: "calculation.json", data: newData }));
+      // };
+      // postNewData();
+      const data = JSON.parse(localStorage.getItem("calcData"));
+      data.push(newData);
+      console.log(newData);
+      dataChanged(data);
+      localStorage.setItem("calcData", JSON.stringify(data));
+      showFunction(false);
+    } else {
+      console.log("ishlamadi");
+    }
+  }, [newData]);
   return (
     <Formik
-      initialValues={{ summ: "", description: "", payment: false }}
+      initialValues={{ sum: "", desctiption: "", payment_type: false }}
       validationSchema={calculationSchema}
       onSubmit={onSubmit}
     >
@@ -20,24 +46,24 @@ const CalcForm = () => {
         <Form>
           <CustomInput
             label="Pul miqdori:"
-            name="summ"
+            name="sum"
             type="text"
             placeholder="Summani kiriting"
           />
           <CustomInput
             label="Sabab:"
-            name="description"
+            name="desctiption"
             type="text"
             placeholder="Izoh qoldiring"
           />
           <CustomSelect
             label="To'lov turi:"
-            name="payment"
+            name="payment_type"
             placeholder="To'lov turini tanlang"
           >
             <option value="">To'lov turini tanlang</option>
             <option value="naqd">Naqd pul</option>
-            <option value="plastic">Plastic</option>
+            <option value="plastik">Plastik</option>
             <option value="click">Click</option>
             <option value="PayMe">PayMe</option>
           </CustomSelect>

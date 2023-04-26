@@ -3,46 +3,87 @@ import CalculationForm from "../components/Form/CalculationForm";
 import { useSelector, useDispatch } from "react-redux";
 import { getData } from "../redux/GetData";
 import { useEffect, useState } from "react";
+import DateMaker from "../helpers/dateMaker";
+import randomNameGenerator from "../helpers/randomNameMaker";
 
 function Calculation() {
   const [show, setShow] = useState(false);
+  const [add, setAdd] = useState(false);
+  const [initialData, setInitialData] = useState(null);
   const [data, setData] = useState([]);
   const { getdata } = useSelector((store) => store);
   const dispatch = useDispatch();
 
+  // Get Data from Store
   useEffect(() => {
-    const fetchUser = async () => {
+    const fetchData = async () => {
       await dispatch(getData({ url: "calculation.json" }));
     };
-    fetchUser();
+    fetchData();
   }, []);
 
   useEffect(() => {
     if (getdata.status === "success") {
-      setData(getdata.data);
+      localStorage.setItem("calcData", JSON.stringify(getdata.data));
+      setData(JSON.parse(localStorage.getItem("calcData")));
     }
   }, [getdata]);
 
+  // Set New Data function
+  const changed = (info) => {
+    setData(info);
+  };
+
+  // Initial new Data
+  useEffect(() => {
+    setInitialData({
+      id: JSON.parse(localStorage.getItem("calcData"))?.length + 1,
+      date: DateMaker(new Date()),
+      is_input: add,
+      name: randomNameGenerator(7, 8),
+    });
+  }, [add]);
+
+  // SHow & Hida Form function
   const showForm = (val = true) => {
     setShow(val);
   };
   return (
     <>
-      <CalculationForm show={show} showFunction={showForm} />
+      {/* Form */}
+      <CalculationForm
+        show={show}
+        showFunction={showForm}
+        initData={initialData}
+        dataChanged={changed}
+      />
+
+      {/* Title */}
       <div className="flex items-center justify-start py-8">
         <h1 className="text-2xl text-center text-yellow-400 font-bold mr-8">
           Kunlik tushumlar
         </h1>
         <button
-          onClick={() => showForm(true)}
+          onClick={() => {
+            showForm(true);
+            setAdd(true);
+          }}
           className="py-2 px-5 rounded bg-green-200 text-green-500 font-bold mr-2 hover:bg-green-500 hover:text-white duration-200 active:bg-green-700"
         >
           Kirim
         </button>
-        <button className="py-2 px-5 rounded bg-red-200 text-red-500 font-bold hover:bg-red-500 hover:text-white duration-200 active:bg-red-700">
+        <button
+          onClick={() => {
+            showForm(true);
+            setAdd(false);
+          }}
+          className="py-2 px-5 rounded bg-red-200 text-red-500 font-bold hover:bg-red-500 hover:text-white duration-200 active:bg-red-700"
+        >
           Chiqim
         </button>
       </div>
+
+      {/* Main Table */}
       <table className="w-full table-auto">
         <thead>
           <tr className="bg-gray-200 text-gray-600 uppercase text-xs leading-normal">
@@ -68,7 +109,9 @@ function Calculation() {
                   <td className="py-2 px-6 text-left whitespace-nowrap">
                     {item.id}
                   </td>
-                  <td className="py-2 px-6 text-left">{item.name}</td>
+                  <td className="py-2 px-6 text-left capitalize">
+                    {item.name}
+                  </td>
                   <td className="py-2 px-6 text-center">{item.date}</td>
                   <td className="py-2 px-6 text-center">{item.sum}</td>
                   <td

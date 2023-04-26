@@ -27,7 +27,11 @@ const CalculationForm = (props) => {
           <h2 className="text-center font-bold text-blue-500 text-2xl mb-4 w-full">
             Kirim-Chiqim
           </h2>
-          <CalcForm />
+          <CalcForm
+            initData={props.initData}
+            dataChanged={props.dataChanged}
+            showFunction={props.showFunction}
+          />
         </div>
       </div>
     </>

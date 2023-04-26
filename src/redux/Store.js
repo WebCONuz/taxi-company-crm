@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counter from "./Counter";
 import getdata from "./GetData";
+import postdata from "./PostData";
 
 const store = configureStore({
   reducer: {
-    counter,
     getdata,
+    postdata,
   },
 });
 
