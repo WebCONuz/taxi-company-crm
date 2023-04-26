@@ -1,8 +1,26 @@
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "../redux/Counter";
+
 function About() {
+  const { counter } = useSelector((store) => store);
+  const dispatch = useDispatch();
+
   return (
     <>
       <h1 className="text-3xl text-center py-3 text-red-600 font-bold">
-        About Us
+        About Us {counter.data}{" "}
+        <button
+          onClick={() => dispatch(increment())}
+          className="py-2 px-3 bg-gray-300 rounded-md mx-1"
+        >
+          +
+        </button>
+        <button
+          onClick={() => dispatch(decrement({ a: 5 }))}
+          className="py-2 px-3 bg-gray-300 rounded-md mx-1"
+        >
+          -
+        </button>
       </h1>
       <p className="text-justify text-lg indent-12">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ipsam

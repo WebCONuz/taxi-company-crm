@@ -4,6 +4,7 @@ import CustomInput from "./CustomInput";
 import CustomSelect from "./CustomSelect";
 
 const onSubmit = async (values, actions) => {
+  console.log(values);
   await new Promise((resolve) => setTimeout(resolve, 1000));
   actions.resetForm();
 };
@@ -35,7 +36,7 @@ const CalcForm = () => {
             placeholder="To'lov turini tanlang"
           >
             <option value="">To'lov turini tanlang</option>
-            <option value="naqt">Naqt pul</option>
+            <option value="naqd">Naqd pul</option>
             <option value="plastic">Plastic</option>
             <option value="click">Click</option>
             <option value="PayMe">PayMe</option>

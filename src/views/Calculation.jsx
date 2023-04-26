@@ -1,9 +1,27 @@
-import { calculation } from "../data";
+// import { calculation } from "../data";
 import CalculationForm from "../components/Form/CalculationForm";
-import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getData } from "../redux/GetData";
+import { useEffect, useState } from "react";
 
 function Calculation() {
   const [show, setShow] = useState(false);
+  const [data, setData] = useState([]);
+  const { getdata } = useSelector((store) => store);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      await dispatch(getData({ url: "calculation.json" }));
+    };
+    fetchUser();
+  }, []);
+
+  useEffect(() => {
+    if (getdata.status === "success") {
+      setData(getdata.data);
+    }
+  }, [getdata]);
 
   const showForm = (val = true) => {
     setShow(val);
@@ -38,32 +56,33 @@ function Calculation() {
           </tr>
         </thead>
         <tbody className="text-gray-600 text-sm font-medium">
-          {calculation.map((item) => {
-            return (
-              <tr
-                className={`border-b border-gray-200  ${
-                  item.is_input ? "bg-green-50" : "bg-red-50"
-                }`}
-                key={item.id}
-              >
-                <td className="py-2 px-6 text-left whitespace-nowrap">
-                  {item.id}
-                </td>
-                <td className="py-2 px-6 text-left">{item.name}</td>
-                <td className="py-2 px-6 text-center">{item.date}</td>
-                <td className="py-2 px-6 text-center">{item.sum}</td>
-                <td
-                  className={`py-2 px-6 text-center text-base text-bold ${
-                    item.is_input ? "text-green-600" : "text-red-500"
+          {data?.length !== 0 &&
+            data.map((item) => {
+              return (
+                <tr
+                  className={`border-b border-gray-200 ${
+                    item.is_input ? "bg-green-50" : "bg-red-50"
                   }`}
+                  key={item.id}
                 >
-                  {item.is_input ? "Kirim" : "Chiqim"}
-                </td>
-                <td className="py-2 px-6 text-justify">{item.desctiption}</td>
-                <td className="py-3 px-6 text-center">{item.payment_type}</td>
-              </tr>
-            );
-          })}
+                  <td className="py-2 px-6 text-left whitespace-nowrap">
+                    {item.id}
+                  </td>
+                  <td className="py-2 px-6 text-left">{item.name}</td>
+                  <td className="py-2 px-6 text-center">{item.date}</td>
+                  <td className="py-2 px-6 text-center">{item.sum}</td>
+                  <td
+                    className={`py-2 px-6 text-center text-base text-bold ${
+                      item.is_input ? "text-green-600" : "text-red-500"
+                    }`}
+                  >
+                    {item.is_input ? "Kirim" : "Chiqim"}
+                  </td>
+                  <td className="py-2 px-6 text-justify">{item.desctiption}</td>
+                  <td className="py-3 px-6 text-center">{item.payment_type}</td>
+                </tr>
+              );
+            })}
         </tbody>
       </table>
     </>

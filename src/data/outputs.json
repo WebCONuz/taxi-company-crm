@@ -798,5 +798,13 @@
     "tax": 1,
     "other": 17,
     "date": "15/03/2023"
+  },
+  {
+    "id": 101,
+    "accidents": 54,
+    "repair_services": 45,
+    "tax": 10,
+    "other": 17,
+    "date": "26/04/2023"
   }
 ]
