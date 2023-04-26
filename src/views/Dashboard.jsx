@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import DoughnutChart from "../components/Chart/Doughnut";
-import ChartTitle from "../ui/ChartTitle";
+import ChartTitle from "../components/Title/ChartTitle";
 import { inputs, outputs, orders } from "../data";
 import DateMaker from "../helpers/dateMaker";
 import Average from "../helpers/average";
@@ -224,7 +224,7 @@ function Dashboard() {
               color={outputData.color}
             />
           ) : (
-            "Bu kunda buyurtmalar mavjud emas"
+            "Bu kunda chiqimlar mavjud emas"
           )}
         </div>
         <div className="w-[49%] p-6 border border-gray-300 rounded-lg mb-6">

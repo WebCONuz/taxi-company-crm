@@ -1,14 +1,24 @@
 import { calculation } from "../data";
 import CalculationForm from "../components/Form/CalculationForm";
+import { useState } from "react";
+
 function Calculation() {
+  const [show, setShow] = useState(false);
+
+  const showForm = (val = true) => {
+    setShow(val);
+  };
   return (
     <>
-      <CalculationForm show="true" />
+      <CalculationForm show={show} showFunction={showForm} />
       <div className="flex items-center justify-start py-8">
         <h1 className="text-2xl text-center text-yellow-400 font-bold mr-8">
           Kunlik tushumlar
         </h1>
-        <button className="py-2 px-5 rounded bg-green-200 text-green-500 font-bold mr-2 hover:bg-green-500 hover:text-white duration-200 active:bg-green-700">
+        <button
+          onClick={() => showForm(true)}
+          className="py-2 px-5 rounded bg-green-200 text-green-500 font-bold mr-2 hover:bg-green-500 hover:text-white duration-200 active:bg-green-700"
+        >
           Kirim
         </button>
         <button className="py-2 px-5 rounded bg-red-200 text-red-500 font-bold hover:bg-red-500 hover:text-white duration-200 active:bg-red-700">

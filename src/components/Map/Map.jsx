@@ -18,7 +18,12 @@ function CityMap() {
     <YMaps>
       <Map
         defaultState={defaultState}
-        style={{ width: "100%", height: "100%", boxShadow: "0 0 10px #C3C3C3" }}
+        style={{
+          width: "100%",
+          minHeight: "434px",
+          height: "100%",
+          boxShadow: "0 0 10px #C3C3C3",
+        }}
       >
         <Placemark
           geometry={[41.307, 69.256]}
